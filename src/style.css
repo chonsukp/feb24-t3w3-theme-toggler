@@ -7,3 +7,30 @@ body {
     background-color: var(--backgroundColour);
     color: var(--fontColour);
 }
+
+#diceImage {
+    width: 20dvw;
+    
+    position: relative;
+    text-align: center;
+    
+    img {
+        width: 100%;
+    }
+
+    p {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#diceRollingArea {
+    background-color: var(--theme-100);
+    width: 90dvw;
+    min-height: none;
+
+    display: flex;
+    flex-wrap: wrap;
+}
